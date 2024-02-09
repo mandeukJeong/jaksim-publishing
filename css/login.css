@@ -1,0 +1,117 @@
+.login-wrap {
+    width: 100%;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.logo-img {
+    width: 300px;
+}
+
+input,
+a,
+button,
+p,
+label,
+i {
+    font-size: 12px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.login-div {
+    width: 35%;
+    margin: auto;
+}
+
+input,
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+}
+
+form input[type=email],
+form input[type=text] {
+    border: 1px solid #A9A9A9;
+}
+
+form input[type=email] {
+    border-bottom: none;
+}
+
+.form-etc {
+    margin: 25px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.form-etc a {
+    color: #A9A9A9;
+}
+
+.form-auto {
+    display: flex;
+    align-items: center;
+    color: #A9A9A9;
+    cursor: pointer;
+}
+
+.form-auto i {
+    margin-right: 5px;
+}
+
+button[type=submit] {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.sns-wrap p {
+    font-size: 14px;
+}
+
+.sns-logo {
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.sns-logo img {
+    width: 40px;
+}
+
+.register-wrap {
+    margin-top: 30px;
+    text-align: start;
+}
+
+.register-wrap h4 {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    padding-bottom: 10px;
+}
+
+.register-wrap p {
+    color: #A9A9A9;
+}
+
+.register-wrap button {
+    margin: 20px 0;
+    border: 1px solid #A9A9A9;
+    background: white;
+}
+
+.register-wrap a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
