@@ -5,7 +5,7 @@
 }
 
 .logo-img {
-    width: 300px;
+    width: 25%;
 }
 
 input,
@@ -114,4 +114,25 @@ button[type=submit] {
     text-decoration: none;
     color: black;
     font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+    .login-div {
+        width: 60%;
+    }
+
+    .logo-img {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .login-div {
+        width: 90%;
+    }
+
+    .logo-img {
+        width: 50%;
+    }
+
 }
