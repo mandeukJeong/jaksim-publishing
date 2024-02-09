@@ -1,6 +1,6 @@
-.login-wrap {
+.register-wrap {
     width: 100%;
-    padding: 50px 100px;
+    padding: 30px 100px;
     text-align: center;
 }
 
@@ -12,64 +12,86 @@ input,
 a,
 button,
 p,
-i {
+i,
+select {
     font-size: 12px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 25px;
 }
 
 form {
     margin-top: 30px;
 }
 
-.login-div {
+.register-div {
     width: 35%;
     margin: auto;
 }
 
 input,
-button {
+button,
+select {
     width: 100%;
     padding: 15px;
     border: none;
 }
 
 form input[type=email],
-form input[type=password] {
+form input[type=text],
+form input[type=password],
+select {
     border: 1px solid #A9A9A9;
+    margin-bottom: 10px;
 }
 
-form input[type=email] {
-    border-bottom: none;
+.email-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-wrap input {
+    width: 70%;
+}
+
+.email-wrap select {
+    width: 28%;
+    color: #848383;
 }
 
 .form-etc {
-    margin: 25px 0;
+    margin: 20px 0;
     display: flex;
+    flex-direction: column;
     width: 100%;
-    align-items: center;
 }
 
-.form-etc a {
-    color: #A9A9A9;
-    /* color: #684FCA; */
-}
-
-.form-auto {
+.form-etc div {
     display: flex;
     align-items: center;
     color: #A9A9A9;
     /* color: #684FCA; */
     cursor: pointer;
+    padding-bottom: 15px;
 }
 
-.form-auto i {
+.form-etc i {
     margin-right: 5px;
+    color: #737373;
+    /* color: #684FCA; */
 }
 
 button[type=submit] {
-    background-color: black;
+    background-color: #A9A9A9;
     color: white;
+    font-weight: 700;
     cursor: pointer;
     margin-bottom: 25px;
+    font-size: 15px;
 }
 
 .sns-wrap p {
@@ -83,42 +105,14 @@ button[type=submit] {
     padding-bottom: 30px;
     justify-content: center;
     gap: 20px;
-    border-bottom: 1px solid #DDDDDD;
 }
 
 .sns-logo img {
     width: 40px;
 }
 
-.register-wrap {
-    margin-top: 30px;
-    text-align: start;
-}
-
-.register-wrap h4 {
-    font-size: 14px;
-    letter-spacing: 0.2px;
-    padding-bottom: 10px;
-}
-
-.register-wrap p {
-    color: #A9A9A9;
-}
-
-.register-wrap button {
-    margin: 20px 0;
-    border: 1px solid #A9A9A9;
-    background: white;
-}
-
-.register-wrap a {
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
-}
-
 @media screen and (max-width: 1200px) {
-    .login-div {
+    .register-div {
         width: 60%;
     }
 
@@ -128,7 +122,7 @@ button[type=submit] {
 }
 
 @media screen and (max-width: 768px) {
-    .login-div {
+    .register-div {
         width: 90%;
     }
 
