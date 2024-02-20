@@ -40,19 +40,30 @@ a {
     margin-right: 3px;
 }
 
+.user-wrap i:first-child {
+    font-size: 20px;
+    color: #D9D9D9;
+}
+
 .user-wrap {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.option-wrap {
+.option-wrap,
+.user-menu-wrap {
     border: 1px solid #A9A9A9;
-    width: 25%;
-    position: relative;
+    background-color: white;
+    position: fixed;
+    z-index: 10;
     top: 55px;
-    left: 70px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.option-wrap {
+    width: 25%;
+    left: 70px;
 }
 
 .option-wrap ul {
@@ -71,4 +82,32 @@ a {
 
 .option-wrap li:last-child a {
     border-right: none;
+}
+
+.user-menu-wrap {
+    padding: 20px 15px;
+    width: 13%;
+    right: 50px;
+}
+
+.user-menu-wrap li h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.user-menu-wrap li a,
+.user-menu-wrap li button {
+    font-size: 13.5px;
+}
+
+.user-menu-wrap li:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.user-menu-wrap li button {
+    border: none;
+    background-color: white;
+    padding: 0;
+    cursor: pointer;
 }
