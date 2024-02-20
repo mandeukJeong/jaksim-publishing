@@ -1,0 +1,79 @@
+.main-wrap {
+    width: 100%;
+    height: calc(100vh);
+    border-radius: 50px 50px 0 0;
+    padding: 30px 0;
+    margin-top: 55px;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+
+.calendar-wrap h3 {
+    margin: 0 50px 20px 50px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.calendar-choose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.calendar-day,
+.calendar-choose i {
+    text-align: center;
+}
+
+.calendar-day {
+    color: #999999;
+    width: 60px;
+    height: 80px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 오늘 날짜인 경우 */
+.today {
+    background: white;
+}
+
+.calendar-day p:first-child {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.compliment-wrap {
+    margin: 40px 50px;
+    padding: 30px 50px;
+    background-color: #D9D9D9;
+    border-radius: 40px;
+}
+
+.compliment-wrap h1 {
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.compliment-wrap div {
+    display: flex;
+    width: 100%;
+    gap: 100px;
+}
+
+.compliment-wrap div button {
+    width: calc(100% / 12 * 3);
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
